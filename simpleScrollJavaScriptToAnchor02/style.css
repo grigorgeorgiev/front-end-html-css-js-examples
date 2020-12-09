@@ -1,0 +1,14 @@
+#sampleText {
+  background-color: grey;
+  width: 100%;
+  height: 1200px;
+  float: left;
+  padding-bottom: 200px;
+}
+
+#pointToScroll {
+  background-color: lightblue;
+  width: 100%;
+  height: 1200px;
+  float: left;
+}
