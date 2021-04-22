@@ -1,6 +1,9 @@
 <style>
   .container-1{
     display: flex; 
+    
+    /* vertical boxes */
+    flex-directon: column;
   }
 
   .container-1 div{
