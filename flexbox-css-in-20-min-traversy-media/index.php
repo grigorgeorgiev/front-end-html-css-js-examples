@@ -9,7 +9,11 @@
   }
   
   .box-1{
-  
+    /* width */
+    /* flex: 1; */
+    
+    /* order */
+    /* order: 1; */
   }
   
   .box-2{
