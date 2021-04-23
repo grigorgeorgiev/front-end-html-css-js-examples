@@ -24,6 +24,8 @@
     justify-content: space-around;
     */
     
+    justify-content: space-around;
+    
   }
 
   .container-1 div, .container-2 div{
