@@ -5,8 +5,28 @@
     /* vertical boxes */
     flex-directon: column;
   }
+  
+  .container-2{
+    display: flex; 
+    /* default:
+    justify-content: flex-start;
+    */
+    /* float in right:
+    justify-content: flex-end;
+    */
+    /* float in center without margins between them:
+    justify-content: center;
+    */
+    /* space between them but without margins in left and right
+    justify-content: space-between;
+    */
+    /* space around left and right every box
+    justify-content: space-around;
+    */
+    
+  }
 
-  .container-1 div{
+  .container-1 div, .container-2 div{
     border: 1px #ccc solid;
     padding: 10px;
   }
@@ -27,6 +47,10 @@
     
   }
   
+  .container-2-box{
+    width: 27%; 
+  }
+  
 </style>
 
 <div class="container-1">
@@ -40,6 +64,21 @@
   </div>
   <div class="box-3">
     <h3>Box Three</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</div>
+
+<div class="container-2">
+  <div class="container-2-box">
+    <h3>Box Four</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="container-2-box">
+    <h3>Box Five</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="container-2-box">
+    <h3>Box Six</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
 </div>
