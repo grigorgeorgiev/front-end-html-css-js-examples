@@ -50,7 +50,8 @@
   }
   
   .container-2-box{
-    width: 27%; 
+    /* width: 27%; */
+    flex-basis: 27%;
   }
   
 </style>
