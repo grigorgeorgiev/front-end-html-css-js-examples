@@ -1,5 +1,6 @@
 <style>
-  .container-1{
+  @media(min-width: 468px){
+     .container-1{
     display: flex; 
     
     /* vertical boxes */
@@ -24,9 +25,14 @@
     justify-content: space-around;
     */
     
-    justify-content: space-around;
+    justify-content: space-between;
     
   }
+    
+  }
+  
+  
+ 
 
   .container-1 div, .container-2 div{
     border: 1px #ccc solid;
