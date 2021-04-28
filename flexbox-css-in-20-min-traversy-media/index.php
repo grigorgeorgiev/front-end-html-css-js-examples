@@ -34,9 +34,14 @@
   
  
 
-  .container-1 div, .container-2 div{
+  .container-1 div, .container-2 div, .container-3 div{
     border: 1px #ccc solid;
     padding: 10px;
+  }
+  
+  .container-3 {
+    display: flex; 
+    flex-wrap: wrap;
   }
   
   .box-1{
@@ -56,6 +61,11 @@
   }
   
   .container-2-box{
+    /* width: 27%; */
+    flex-basis: 27%;
+  }
+  
+  .container-3-box{
     /* width: 27%; */
     flex-basis: 27%;
   }
@@ -89,6 +99,21 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
   <div class="container-2-box">
+    <h3>Box Six</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+</div>
+
+<div class="container-3">
+  <div class="container-3-box">
+    <h3>Box Four</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="container-3-box">
+    <h3>Box Five</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="container-3-box">
     <h3>Box Six</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   </div>
